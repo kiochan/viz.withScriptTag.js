@@ -19,7 +19,7 @@ Then, include `viz.js` and `viz.withScriptTag.js` both into you HTML file.
 At last, write your dot script into script tag with `type="text/dot"`.
 ```html
 <script type="text/dot">
-  graph graphname {
+  digraph graphname {
     a -> b;
     b -> c;
     c -> a;
